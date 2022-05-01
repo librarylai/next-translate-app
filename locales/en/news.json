@@ -1,0 +1,16 @@
+{
+  "news": {
+    "subject1": {
+      "title": "『Teaching』how to deposit funds into your account",
+      "desc": " how to deposit funds into your account"
+    },
+    "subject2": {
+      "title": "『Shopping』NFT platform will be launched soon",
+      "desc": "The NFT query function will be launched soon, you will be able to query all on-chain NFT data with one click"
+    },
+    "subject3": {
+      "title": "『Why』Do you not know how to start with 'doubt'?",
+      "desc": "You can use the small helper system in the lower right corner to raise the incurable diseases you are currently encountering."
+    }
+  }
+}

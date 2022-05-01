@@ -1,0 +1,10 @@
+{
+  "home": "Home",
+  "aboutUs": "About us",
+  "clickGo": "Click to go",
+  "language": {
+    "zh-Hant": "Chinese",
+    "en": "English",
+    "fr": "French"
+  }
+}

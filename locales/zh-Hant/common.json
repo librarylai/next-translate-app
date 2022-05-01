@@ -1,0 +1,10 @@
+{
+  "home": "首頁",
+  "aboutUs": "關於我們",
+  "clickGo": "點擊前往",
+  "language": {
+    "zh-Hant": "國語",
+    "en": "英語",
+    "fr": "法語"
+  }
+}

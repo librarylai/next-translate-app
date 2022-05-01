@@ -1,0 +1,16 @@
+{
+  "news": {
+    "subject1": {
+      "title": "『Enseigner』comment déposer des fonds sur votre compte",
+      "desc": "comment déposer des fonds sur votre compte"
+    },
+    "subject2": {
+      "title": "La plateforme NFT 『Shopping』sera bientôt lancée",
+      "desc": "La fonction de requête NFT sera bientôt lancée, vous pourrez interroger toutes les données NFT en chaîne en un seul clic"
+    },
+    "subject3": {
+      "title": "Vous ne savez pas par où commencer avec le 'doute' ?",
+      "desc": "Vous pouvez utiliser le petit système d'aide dans le coin inférieur droit pour signaler les maladies incurables que vous rencontrez actuellement."
+    }
+  }
+}
