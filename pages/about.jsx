@@ -11,11 +11,11 @@ function About() {
   return (
     <LayOut>
       <Head>
-        <title>{aboutI18n(header.title)}</title>
-        <meta name='description' content={aboutI18n(header.desc)} />
+        <title>{aboutI18n('header.title')}</title>
+        <meta name='description' content={aboutI18n('header.desc')} />
       </Head>
       <Typography variant='h3' component='div' gutterBottom>
-        {aboutI18n(main.title)}
+        {aboutI18n('main.title')}
       </Typography>
     </LayOut>
   )

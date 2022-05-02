@@ -3,6 +3,8 @@ import styled from 'styled-components'
 import { Button, Menu, MenuItem } from '@mui/material'
 import useTranslation from 'next-translate/useTranslation'
 import setLanguage from 'next-translate/setLanguage'
+import Link from 'next/link'
+import { useRouter } from 'next/router'
 
 const LanguageButton = styled(Button)`
   font-size: 20px;
@@ -19,6 +21,7 @@ const StyledMenuItem = styled(MenuItem)`
 `
 const LanguageMenu = () => {
   const [anchorEl, setAnchorEl] = useState(null)
+  const router = useRouter()
   // lang 為當前使用 語言
   const { t: commonI18n, lang } = useTranslation('common')
   const isLangOpen = Boolean(anchorEl)
@@ -48,9 +51,16 @@ const LanguageMenu = () => {
           'aria-labelledby': 'basic-button',
         }}
       >
-        <StyledMenuItem onClick={()=>setLanguage('zh-Hant')} >{commonI18n('language.zh-Hant')}</StyledMenuItem>
-        <StyledMenuItem onClick={()=>setLanguage('fr')}>{commonI18n('language.fr')}</StyledMenuItem>
-        <StyledMenuItem>{commonI18n('language.en')}</StyledMenuItem>
+        {/* 方法一：使用 setLanguage 在同一頁切換語系*/}
+        <StyledMenuItem onClick={() => setLanguage('zh-Hant')}>{commonI18n('language.zh-Hant')}</StyledMenuItem>
+        {/* 方法二：使用 Link 跳頁並切換語系 */}
+        <StyledMenuItem>
+          <Link href='/about' locale={'en'}>
+            {commonI18n('language.en')}
+          </Link>
+        </StyledMenuItem>
+        {/* 方法三： 使用 useRouter 跳頁並切換語系*/}
+        <StyledMenuItem onClick={() => router.push('/about', undefined, { locale: 'fr' })}>{commonI18n('language.fr')}</StyledMenuItem>
       </Menu>
     </>
   )
