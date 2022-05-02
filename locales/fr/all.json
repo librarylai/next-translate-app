@@ -1,0 +1,45 @@
+{
+  "homePage": {
+    "header": {
+      "title": "Rechercher la page d'accueil",
+      "description": "Prochain exercice de traduction"
+    },
+    "main": {
+      "title": "Réseau d'échange de devises virtuel～～～～",
+      "news": {
+        "title": "Section Actualités :"
+      }
+    }
+  },
+  "aboutPage": {
+    "header": {
+      "title": "À propos de nous",
+      "desc": "Page À propos de nous"
+    },
+    "main": {
+      "title": "Nous sommes une équipe de développement indépendante..."
+    }
+  },
+  "news": {
+    "subject1": {
+      "title": "『Enseigner』comment déposer des fonds sur votre compte",
+      "desc": "comment déposer des fonds sur votre compte"
+    },
+    "subject2": {
+      "title": "La plateforme NFT 『Shopping』sera bientôt lancée",
+      "desc": "La fonction de requête NFT sera bientôt lancée, vous pourrez interroger toutes les données NFT en chaîne en un seul clic"
+    },
+    "subject3": {
+      "title": "Vous ne savez pas par où commencer avec le 'doute' ?",
+      "desc": "Vous pouvez utiliser le petit système d'aide dans le coin inférieur droit pour signaler les maladies incurables que vous rencontrez actuellement."
+    }
+  },
+  "home": "page de garde",
+  "aboutUs": "à propos de nous",
+  "clickGo": "Cliquez pour aller",
+  "language": {
+    "zh-Hant": "Chinois",
+    "en": "Anglais",
+    "fr": "Français"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "homePage": {
+    "header": {
+      "title": "查詢首頁",
+      "description": "Next Translate 練習"
+    },
+    "main": {
+      "title": "虛擬貨幣交易網～～～～",
+      "news": {
+        "title": "新聞專區："
+      }
+    }
+  },
+  "aboutPage": {
+    "header": {
+      "title": "關於我們",
+      "desc": "關於我們頁面"
+    },
+    "main": {
+      "title": "我們是一個獨立開發團隊..."
+    }
+  },
+  "news": {
+    "subject1": {
+      "title": "『教學』如何儲值資金至您的帳戶",
+      "desc": "如何儲值資金至您的帳戶"
+    },
+    "subject2": {
+      "title": "『購物』NFT 平台即將上線",
+      "desc": "NFT 查詢功能即將上線，您將可以一鍵查詢所有鏈上 NFT 資料"
+    },
+    "subject3": {
+      "title": "『疑惑』不知如何開始嗎？",
+      "desc": "你可透過右下角小幫手系統來提出您目前所碰到的疑難雜症。"
+    }
+  },
+  "home": "首頁",
+  "aboutUs": "關於我們",
+  "clickGo": "點擊前往",
+  "language": {
+    "zh-Hant": "國語",
+    "en": "英語",
+    "fr": "法語"
+  }
+}
